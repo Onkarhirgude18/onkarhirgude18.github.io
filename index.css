@@ -131,6 +131,8 @@ font-family: 'Rubik', sans-serif;
 }
 .main_content{
 padding-left :270px;
+}
+.background{
 position: absolute;  
 display: block;  
 top: 0;  
