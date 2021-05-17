@@ -130,8 +130,14 @@ font-family: 'Rubik', sans-serif;
   padding-bottom:40px;
 }
 .main_content{
-  padding-left :270px;
-  background: linear-gradient(-45deg, #ee7752, #f04d8b, #23bfd0, #23d5ab);
+padding-left :270px;
+position: absolute;  
+display: block;  
+top: 0;  
+left: 0;  
+z-index: 0;
+}
+ /* background: linear-gradient(-45deg, #ee7752, #f04d8b, #23bfd0, #23d5ab);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 
@@ -146,7 +152,7 @@ font-family: 'Rubik', sans-serif;
 	100% {
 		background-position:  100% 0%;
 	}
-}
+}*/
 
 .container{
     max-width: 1100px;
